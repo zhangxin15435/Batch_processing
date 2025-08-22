@@ -6,11 +6,9 @@ WORKDIR /app
 
 # 复制包管理文件
 COPY package.json ./
-COPY pnpm-lock.yaml ./
-RUN corepack enable && corepack prepare pnpm@9.0.0 --activate
 
 # 安装依赖（生产环境）
-RUN pnpm install --prod --frozen-lockfile
+RUN npm install --only=production
 
 # 复制应用代码
 COPY src/ ./src/
