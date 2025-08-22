@@ -1,0 +1,18 @@
+services:
+  - type: web
+    name: batch-processing-backend
+    env: node
+    region: singapore
+    plan: free
+    buildCommand: cd server && npm install
+    startCommand: cd server && npm start
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: PORT
+        value: 10000
+      - key: DATABASE_URL
+        sync: false  # 需要手动设置，从 Neon 复制
+      - key: CORS_ORIGINS
+        value: https://your-frontend.vercel.app
+    healthCheckPath: /health

@@ -1,0 +1,35 @@
+=== 数据库连接测试 ===
+✓ 数据库连接成功
+
+=== YOUTUBE_POSTS ===
+总记录数: 0
+今天新增: 0条
+无记录
+
+=== TIKTOK_POSTS ===
+总记录数: 5
+今天新增: 5条
+最新记录:
+  1. [ai]  - The burgers are always fresh at cat donalds
+#McDon...
+     时间: Tue Aug 19 2025 19:43:31 GMT+0800 (中国标准时间)
+     URL: https://www.tiktok.com/@cat.donalds/video/7513241346560298286
+  2. []  - 无标题...
+     时间: Tue Aug 19 2025 19:36:03 GMT+0800 (中国标准时间)
+     URL: 无URL
+
+=== TWITTER_POSTS ===
+总记录数: 29
+今天新增: 29条
+最新记录:
+  1. [prompt] Qvert_ymus - I don’t have anything prepped for #ButchViWeek nor...
+     时间: Tue Aug 19 2025 11:38:51 GMT+0800 (中国标准时间)
+     URL: https://x.com/Qvert_ymus/status/1957070834293428590
+  2. [prompt] aaditsh - Google literally published a 69-page prompt engine...
+     时间: Tue Aug 19 2025 11:38:51 GMT+0800 (中国标准时间)
+     URL: https://x.com/aaditsh/status/1957072456919003439
+
+=== INSTAGRAM_POSTS ===
+总记录数: 0
+今天新增: 0条
+无记录

@@ -1,0 +1,82 @@
+# Dependencies
+node_modules/
+.pnpm-debug.log*
+.npm-cache/
+
+# Build outputs
+dist/
+build/
+
+# Environment files
+.env
+.env.local
+.env.production
+.env.development.local
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory used by tools like istanbul
+coverage/
+
+# nyc test coverage
+.nyc_output
+
+# Temporary folders
+tmp/
+temp/
+
+# Database
+*.db
+*.sqlite
+
+# Cache
+.cache/
+.parcel-cache/
+
+# Prisma
+prisma/dev.db
+
+# Vercel
+.vercel
+
+# Next.js
+.next/
+
+# Nuxt.js
+.nuxt/
+
+# Vite
+.vite/
+
+# Cursor
+.cursor/
+
+# Spec story
+.specstory/
+
+# NPX cache
+.npm-cache/
