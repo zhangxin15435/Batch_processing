@@ -14,7 +14,6 @@ RUN pnpm install --prod --frozen-lockfile
 
 # 复制应用代码
 COPY src/ ./src/
-COPY data/ ./data/
 
 # 创建非root用户（安全最佳实践）
 RUN addgroup -g 1001 -S nodejs && \
