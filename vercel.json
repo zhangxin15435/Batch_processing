@@ -12,7 +12,7 @@
     "routes": [
         {
             "src": "/api/(.*)",
-            "dest": "https://batch-processing-backend.onrender.com/api/$1"
+            "dest": "https://batch-processing-2e9n.onrender.com/api/$1"
         },
         {
             "src": "/(.*)",
@@ -20,6 +20,6 @@
         }
     ],
     "env": {
-        "VITE_API_BASE_URL": "https://batch-processing-backend.onrender.com"
+        "VITE_API_BASE_URL": "https://batch-processing-2e9n.onrender.com"
     }
 }
