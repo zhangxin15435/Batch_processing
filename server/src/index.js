@@ -2207,6 +2207,33 @@ app.get('/health', (req, res) => {
     })
 })
 
+// 根路径路由：提供 API 信息
+app.get('/', (req, res) => {
+    res.json({
+        name: '批量处理服务 API',
+        version: '1.0.0',
+        status: 'running',
+        description: '支持小红书 MCP 爬虫的批量处理后端服务',
+        endpoints: {
+            health: '/health',
+            api_health: '/api/health',
+            metrics: '/api/metrics',
+            xiaohongshu_search: '/api/sourcing/xiaohongshu/search'
+        },
+        timestamp: new Date().toISOString()
+    })
+})
+
+// 健康检查路由（简化版）
+app.get('/health', (req, res) => {
+    res.json({
+        status: 'ok',
+        timestamp: new Date().toISOString(),
+        uptime: process.uptime(),
+        memory: process.memoryUsage()
+    })
+})
+
 // 兼容健康检查：增加 /api/health 路由，保持与前端代理与Docker健康检查一致
 app.get('/api/health', (req, res) => {
     res.json({
